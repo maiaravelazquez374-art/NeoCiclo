@@ -1,0 +1,6 @@
+// Ejemplo: mensaje al enviar formulario
+document.querySelector("form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("Gracias por contactar con Neociclo. Te responderemos pronto.");
+  e.target.reset();
+});
